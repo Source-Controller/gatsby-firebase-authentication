@@ -1,19 +1,9 @@
 # 🐣 Gatsby Firebase Starter
 
-[![Build Status](https://travis-ci.org/the-road-to-react-with-firebase/react-gatsby-firebase-authentication.svg?branch=master)](https://travis-ci.org/the-road-to-react-with-firebase/react-gatsby-firebase-authentication) [![Slack](https://slack-the-road-to-learn-react.wieruch.com/badge.svg)](https://slack-the-road-to-learn-react.wieruch.com/) [![Greenkeeper badge](https://badges.greenkeeper.io/the-road-to-react-with-firebase/react-gatsby-firebase-authentication.svg)](https://greenkeeper.io/)
-
 Your minimal yet extensive authentication starter project in Gatsby.js with Firebase and plain React.
 
 * Powered by [Gatsby](https://github.com/gatsbyjs/gatsby)
 * [Tutorial](https://www.robinwieruch.de/complete-firebase-authentication-react-tutorial/)
-
-## Variations
-
-* [Only React Version](https://github.com/the-road-to-react-with-firebase/react-firebase-authentication)
-* [Redux Version](https://github.com/the-road-to-react-with-firebase/react-redux-firebase-authentication)
-* [MobX Version](https://github.com/the-road-to-react-with-firebase/react-mobx-firebase-authentication)
-* [Firestore Version](https://github.com/the-road-to-react-with-firebase/react-firestore-authentication)
-* [Semantic UI Version](https://github.com/the-road-to-react-with-firebase/react-semantic-ui-firebase-authentication)
 
 ## Features
 
@@ -36,14 +26,6 @@ Your minimal yet extensive authentication starter project in Gatsby.js with Fire
 
 ## License
 
-### Commercial license
-
-If you want to use this starter project to develop commercial sites, themes, projects, and applications, the Commercial license is the appropriate license. With this option, your source code is kept proprietary. Purchase an commercial license for different team sizes:
-
-* [1 Developer](https://gum.co/react-with-firebase-starter-pack-developer)
-* [Team of up to 8 Developers](https://gum.co/react-with-firebase-starter-pack-team)
-* [Unlimited Developers of an Organization](https://gum.co/react-with-firebase-starter-pack-organization)
-
 It grants you also access to the other starter projects in this GitHub organization.
 
 ### Open source license
@@ -52,7 +34,7 @@ If you are creating an open source application under a license compatible with t
 
 ## Installation
 
-* `git clone https://github.com/the-road-to-react-with-firebase/react-gatsby-firebase-authentication.git`
+* `git clone https://github.com/followDev/gatsby-firebase-authentication.git`
 * `cd react-gatsby-firebase-authentication`
 * `npm install`
 * save the [Firebase credentials](#firebase-configuration)
@@ -84,11 +66,6 @@ GATSBY_MESSAGING_SENDER_ID=701928454501
 
 ![firebase-enable-google-social-login_640](https://user-images.githubusercontent.com/2479967/49687774-e0a31e80-fb42-11e8-9d8a-4b4c794134e6.jpg)
 
-* Email/Password
-* [Google](https://www.robinwieruch.de/react-firebase-social-login/)
-* [Facebook](https://www.robinwieruch.de/firebase-facebook-login/)
-* [Twitter](https://www.robinwieruch.de/firebase-twitter-login/)
-* [Troubleshoot](https://www.robinwieruch.de/react-firebase-social-login/)
 
 ### Activate Verification E-Mail
 
@@ -142,7 +119,7 @@ In the Firebase console, go to Database, select "Realtime Database" -> Rules, an
 
 ## Setup via Gatsby CLI
 
-* `gatsby new react-gatsby-firebase-authentication https://github.com/the-road-to-react-with-firebase/react-gatsby-firebase-authentication.git`
+* `gatsby new react-gatsby-firebase-authentication https://github.com/followDev/gatsby-firebase-authentication.git`
 * `cd react-gatsby-firebase-authentication`
 * `npm install`
 * `gatsby develop`
